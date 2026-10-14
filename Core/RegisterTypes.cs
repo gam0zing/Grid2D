@@ -1,6 +1,6 @@
 ﻿namespace Grid2D.Core;
 
 public static class RegisterTypes {
-    public static readonly string BLOCK = "block";
-    public static readonly string ITEM = "item";
+    public const string BLOCK = "block";
+    public const string ITEM = "item";
 }

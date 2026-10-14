@@ -1,6 +1,6 @@
 ﻿namespace Grid2D.Core;
 
-public record RegisterEntry<TItem>(Identifier Identifier, Func<TItem> Factory) { }
+public record RegisterEntry<TItem>(Identifier Identifier, Func<TItem> Getter) { }
 
 public interface IRegistry {
     Identifier Identifier { get; }
