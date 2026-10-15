@@ -1,4 +1,4 @@
-﻿using Grid2D.Core;
+﻿using Grid2D.Core.Register;
 
 public interface IRegistryItem<TSelf> where TSelf : IRegistryItem<TSelf> {
     abstract static string Type { get; }

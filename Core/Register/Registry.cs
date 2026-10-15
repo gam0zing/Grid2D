@@ -1,4 +1,4 @@
-﻿namespace Grid2D.Core;
+﻿namespace Grid2D.Core.Register;
 
 public record RegisterEntry<TItem>(Identifier Identifier, Func<TItem> Getter) { }
 

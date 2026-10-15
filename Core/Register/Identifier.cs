@@ -1,4 +1,4 @@
-﻿namespace Grid2D.Core;
+﻿namespace Grid2D.Core.Register;
 
 public readonly record struct Identifier(
     string Group,

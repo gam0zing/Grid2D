@@ -1,6 +1,7 @@
 ﻿using Grid2D.Core.Types;
+using Grid2D.Runtime.World.Displayable.Model.Define;
 
-namespace Grid2D.Runtime;
+namespace Grid2D.Runtime.World.Displayable.View;
 
 public readonly struct Grid {
     public static readonly Grid EMPTY = new(new Vec2I(0, 0), Blocks.AIR, 0);

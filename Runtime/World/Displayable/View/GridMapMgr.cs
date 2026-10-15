@@ -1,7 +1,6 @@
-﻿
-using Grid2D.Core.Types;
+﻿using Grid2D.Core.Types;
 
-namespace Grid2D.Runtime;
+namespace Grid2D.Runtime.World.Displayable.View;
 
 class GridMap {
     public readonly Vec2I Pos;

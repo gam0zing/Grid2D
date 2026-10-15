@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace Grid2D.Core;
+namespace Grid2D.Core.Register;
 
 public static class RegistryCenter {
     private static readonly ConcurrentDictionary<string, IRegistry> _registries = new();

@@ -1,6 +1,6 @@
-﻿using Grid2D.Core;
+﻿using Grid2D.Core.Register;
 
-namespace Grid2D.Runtime;
+namespace Grid2D.Runtime.World.Displayable.Model.Define;
 
 public class Block : IRegistryItem<Block> {
     public static readonly Registry<Block> REGISTRY = RegistryCenter.Register<Block>(MainGlobal.GROUP);

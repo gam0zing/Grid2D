@@ -1,4 +1,6 @@
-﻿namespace Grid2D.Runtime;
+﻿using Grid2D.Runtime.World.Displayable.Model.Define;
+
+namespace Grid2D.Runtime.World.Displayable;
 
 public static class Blocks {
     public static readonly Block AIR = Block.Register(MainGlobal.GROUP, "air");
